@@ -4,12 +4,15 @@
   "description": "Inbox inspired forum platform",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "author": "johnhorsema",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.6.2",
+    "body-parser": "^1.16.1",
+    "compression": "^1.6.2",
     "express": "^4.14.1",
     "mocha": "^3.2.0",
     "pouchdb": "^6.1.2"
