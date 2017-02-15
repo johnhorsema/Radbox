@@ -1,0 +1,20 @@
+{
+  "name": "radbox",
+  "version": "1.0.0",
+  "description": "Inbox inspired forum platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "johnhorsema",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "express": "^4.14.1",
+    "mocha": "^3.2.0",
+    "pouchdb": "^6.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
